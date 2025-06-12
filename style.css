@@ -1,0 +1,68 @@
+.line{
+            background-color: bisque;
+        }
+        #new{
+            font-family: cursive;
+        }
+        h1{
+            background-color:purple
+        }
+        .parent p{
+            color:chartreuse;
+        }
+        p:hover{
+            color:darkgreen;
+            background-color: aquamarine;
+        }
+
+        .border{
+            border: 2px solid black;
+            padding: 50px;
+            border-radius: 20px;
+            border-style: dotted;
+        }
+        .margin{
+            border: 3px solid black;
+            padding: 20px;
+        }
+        .margin2{
+            border: 3px solid black;
+            margin-top: 50px;
+        }
+        .position{
+            border: 2px solid violet;
+        }
+        .relatives{
+            poition:relative;
+            top:30px;
+            left:60px;
+        }
+
+        .page{
+            height: 100vh;
+        }
+        .fixed{
+            position: fixed;
+            top: 50px;
+        }
+        .sticky{
+            position: sticky;
+            top:0;
+            front size: xx-large;
+        }
+        .inline{
+            display: inline;
+        }
+        .flex-container{
+            display: flex;
+            /*flex direction: row reverse; */
+        }
+        .flex-container div{
+            background-color: peachpuff;
+            border: 2px solid brown;
+            height:100px;
+            width: 100px;
+        }
+        item2{
+        /*flex-grow: 2 */
+        flex-shrink: 0;
